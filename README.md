@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/Bileonaire/Bileonaires_club.svg?branch=Develop-API-v2)]
+![Build Status](https://travis-ci.org/Bileonaire/Bileonaires_club.svg?branch=Develop-API-v2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # Attendance App
 Bileonaire Rides is a carpooling application that provides drivers with the ability to create ride oﬀers  and passengers to join available ride oﬀers.
 
-![App Image](https://raw.github.com/Bileonaire/React)
+![App Image](https://raw.githubusercontent.com/Bileonaire/React-with-Typescript-App/master/public/appImage.PNG)
 
 
 
