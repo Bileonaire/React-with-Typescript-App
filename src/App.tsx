@@ -15,19 +15,7 @@ export interface IState {
 
 function App() {
 
-  const [people, setPeople] = useState<IState["people"]>([
-    {
-      name: "LeBron James",
-      age: 35,
-      img: "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
-      note: "Allegeric to staying on the same team",
-    },
-    {
-      name: "Kobe Bryant",
-      age: 42,
-      img: "https://fullpresscoverage.com/wp-content/uploads/2020/01/101524695-457220551.jpg"
-    }
-  ])
+  const [people, setPeople] = useState<IState["people"]>(dummyData)
 
   return (
     <div className="App">
@@ -39,3 +27,23 @@ function App() {
 }
 
 export default App;
+
+
+const dummyData: IState["people"] = [
+  {
+    name: "LeBron James",
+    age: 35,
+    img: "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
+    note: "Allegeric to staying on the same team",
+  },
+  {
+    name: "Dennis Kesho",
+    age: 42,
+    img: "https://i2-prod.mirror.co.uk/incoming/article25955639.ece/ALTERNATES/s615b/0_GettyImages-1237198637.jpg"
+  },
+  {
+    name: "Leonardo Decaprio",
+    age: 33,
+    img: "https://github.com/Bileonaire.png"
+  }
+];
