@@ -2,17 +2,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # Attendance App
-Bileonaire Rides is a carpooling application that provides drivers with the ability to create ride oﬀers  and passengers to join available ride oﬀers.
+This is an application that helps in managing attendance of people to an event.
+It is built on React using TypeScript.
 
 ![App Image](https://raw.githubusercontent.com/Bileonaire/React-with-Typescript-App/master/public/appImage.PNG)
 
 
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
